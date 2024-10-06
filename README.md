@@ -1,4 +1,4 @@
-### Create a new dotfiles repository:
+### Create a new Minecraft server dotfiles repository:
 1. `mkdir $(pwd)/.mcs`  
 2. `git init --bare $(pwd)/.mcs`  
 3. `echo "alias mcs='/usr/bin/git --git-dir=$(pwd)/.mcs/ --work-tree=$(pwd)'" >> $HOME/.bashrc`  
